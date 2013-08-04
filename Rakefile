@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'bundler'
+require './lib/getulio/version.rb'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -17,10 +18,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "getulio"
   gem.homepage = "http://github.com/joaohornburg/getulio"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "generate random timesheets for brazilian workers (according to CLT)"
+  gem.description = "generate random timesheets for brazilian workers (according to CLT)"
   gem.email = "joao.hornburg@gmail.com"
   gem.authors = ["João Hornburg"]
+  gem.version = Getulio::Version::STRING
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

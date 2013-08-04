@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.md",
     "Rakefile",
+    "getulio.gemspec",
     "lib/getulio.rb",
     "lib/getulio/timesheet.rb",
     "lib/getulio/timesheet_day.rb",

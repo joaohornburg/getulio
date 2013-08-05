@@ -1,3 +1,4 @@
-class Getulio
-  
+require "getulio/timesheet"
+
+module Getulio
 end

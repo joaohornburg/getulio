@@ -37,4 +37,5 @@ module Getulio
     end
 
   end
+
 end
